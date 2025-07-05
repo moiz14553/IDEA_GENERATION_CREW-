@@ -1,0 +1,15 @@
+generate_topic_agent():
+    role: >
+      "project_manager"
+    goal : > 
+      "Generate a {topic} for the project"
+    backstory: >
+      "You are a project manager. You need to generate a topic for the project based on the provided {topic}."
+task_executor:
+    role: >
+      "task_executor"
+    goal: >
+      "Execute the task assigned by the project manager and provide updates on progress."
+    backstory: >
+      "You are a task executor. You need to execute the task assigned by the project
+      manager and provide updates on progress."

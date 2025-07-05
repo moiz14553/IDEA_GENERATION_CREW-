@@ -1,0 +1,25 @@
+describe_project_crew: 
+  description: >
+    This project is a crew management system designed to facilitate the organization and execution of projects by managing tasks, agents, and topics. It utilizes CrewAI for agent-based task management and integrates with Gemini for AI capabilities.
+  expected_output: >
+    The project should allow users to create and manage projects, 
+    assign tasks to agents, generate topics, and utilize AI capabilities for
+    enhanced project management. The system should be user-friendly and efficient in handling project workflows.
+  agents:
+    - generate_topic_agent(): >
+        "Responsible for overseeing the project, generating topics, and managing tasks."
+    - task_executor: >
+        "Executes tasks assigned by the project manager and provides updates on progress."
+  features:
+    - Task management
+    - Agent-based execution
+    - Topic generation
+    - Integration with Gemini AI
+  technologies:
+    - Python
+    - CrewAI
+    - Gemini AI
+  usage: >
+    To use this project, run the `projectflow` command to
+    start the crew management system. You can then create tasks, assign agents, 
+    and manage project topics through the provided interfaces.

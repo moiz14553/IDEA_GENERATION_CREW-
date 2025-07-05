@@ -126,15 +126,5 @@ This project is open source and available under the [MIT License](LICENSE).
 * [LinkedIn](https://www.linkedin.com/in/abdul-rehman-1333a3290/)
 * [GitHub](https://github.com/moiz14553)
 
----
 
 
-
----
-
-Let me know if you need:
-
-- `.gitignore` for Python + VSCode  
-- License file template  
-- GitHub repository description draft for professional upload today.
-```
